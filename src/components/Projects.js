@@ -51,7 +51,7 @@ export const Projects = () =>{
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at lorem dolor. Nunc rutrum lacus sit amet tellus bibendum, quis dignissim nunc porta. Etiam dignissim hendrerit ipsum et imperdiet. Phasellus nisl arcu, interdum eget accumsan eget, tristique a tellus. Nullam et dolor mattis,
                         </p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                            <Nav variant="pills" defaultActiveKey="/home">
+                            <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
                                     <Nav.Link eventKey="first">Tab One</Nav.Link>
                                 </Nav.Item>
@@ -70,7 +70,7 @@ export const Projects = () =>{
                                                 return(
                                                     <ProjectCard 
                                                     key={index}
-                                                    {...projects}/>
+                                                    {...project}/>
                                                 )
                                             })
                                         }
