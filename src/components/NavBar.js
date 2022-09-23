@@ -46,9 +46,9 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
                 <div className="social-icon">
-                    <a href="#"><img src={navIcon1} alt=""/></a>
-                    <a href="#"><img src={navIcon2} alt=""/></a>
-                    <a href="#"><img src={navIcon3} alt=""/></a>
+                    <a href="https://www.linkedin.com/in/sergio-parra-montoya-0550b0142/" target='_blank'><img src={navIcon1} alt=""/></a>
+                    <a href="https://github.com/jsergiopm"><img src={navIcon2} alt=""/></a>
+                    <a href="https://instagram.com/jsergiopm"><img src={navIcon3} alt=""/></a>
                 </div>
                 <button className="vvd" onClick={() => console.log('connect')}>
                     <span>Let's connect</span>

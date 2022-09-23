@@ -52,7 +52,7 @@ export const Banner = () => {
                             <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                             <span className="tagline">This is my portfolio</span>
                             <h1>{"Hi i'm jsergiopm "}<span className='wrap'>{text}</span></h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet mauris non nulla placerat mollis. Sed commodo, nisl non gravida faucibus, ante massa gravida urna, vitae iaculis massa est ac urna. Fusce commodo bibendum tristique. Nullam non tempus nibh. Sed dignissim erat auctor hendrerit maximus.</p>
+                            <p>My areas of interest are web design and development, python programming, database management system. I Enjoy to do Designing , Error Solving and Development. I am a Fast Learner and Highly Self Motivated.</p>
                             <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}></ArrowRightCircle></button>
                             </div>
                         }
